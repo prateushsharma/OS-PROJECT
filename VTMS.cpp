@@ -781,7 +781,7 @@ system("clear");
                 system("clear");
                 string line;
                
-                ifstream myfile("/home/lamecodes/CLionProjects/untitled/cmake-build-debug/HelpNumbers.txt");
+                ifstream myfile("HelpNumbers.txt");
                 if (myfile.is_open()) {
                     while (getline(myfile, line)) {
                         cout << line << '\n';
@@ -810,7 +810,7 @@ system("clear");
 
                 system("clear");
                 string line;
-                ifstream myfile("/home/lamecodes/CLionProjects/untitled/cmake-build-debug/HAmritsar.txt");
+                ifstream myfile("HAmritsar.txt");
                 if (myfile.is_open()) {
                     while (getline(myfile, line)) {
                         cout << line << '\n';
@@ -853,7 +853,7 @@ system("clear");
 
                 system("clear");
                 string line;
-                ifstream myfile("/home/lamecodes/CLionProjects/untitled/cmake-build-debug/HChandigarh.txt");
+                ifstream myfile("HChandigarh.txt");
                 if (myfile.is_open()) {
                     while (getline(myfile, line)) {
                         cout << line << '\n';
@@ -867,13 +867,13 @@ system("clear");
             cout<<"lincon   "<<"\t"<<"9638524170"<<"\n";
             cout<<"fortis   "<<"\t"<<"9638556170"<<"\n";
             cout<<"linn     "<<"\t"<<"8838524170"<<"\n";
-            cout<<"DR.RANJAN"<<"\t"<<"9638524170"<<"\n";
-            cout<<"DR.ACSRAO"<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.HARI OM"<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.AYAN DAS"<<"\t"<<"9638524170"<<"\n";
             cout<<"lincon   "<<"\t"<<"9638524170"<<"\n";
             cout<<"fortis   "<<"\t"<<"9638556170"<<"\n";
             cout<<"DR+      "<<"\t"<<"8838524170"<<"\n";
-            cout<<"DR.RUII  "<<"\t"<<"9638524170"<<"\n";
-            cout<<"DR.RAO   "<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.RAMESH"<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.PRANAV   "<<"\t"<<"9638524170"<<"\n";
                 }
 
                 int choice;
