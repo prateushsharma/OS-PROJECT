@@ -910,8 +910,7 @@ int main()
     SmartTrafficManagementSystem ob1;
     ob1.welcome();
 
-    //ÂDITYA BAITHA
-    //ADNAN AHAMED FAROOQUI
-    //ABHISHEK
-    //AJMEERA
+    //PRATEUSH SHARMA
+    //OM PRAKASH
+    //RAHUL
 }
