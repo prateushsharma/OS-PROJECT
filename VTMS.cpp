@@ -627,9 +627,9 @@ system("clear");
         cout<<"*                                                                                                                                     *"<<endl;
         cout<<"*                     Press Your Option :-                                                                                            *"<<endl;
         cout<<"*                                                                                                                                     *"<<endl;
-        cout<<"*                                      1. Jalandhar Traffic Control Booth                                                             *"<<endl;
-        cout<<"*                                      2. Amritsar Traffic Control Booth                                                              *"<<endl;
-        cout<<"*                                      3. Chandigarh Traffic Control Booth                                                            *"<<endl;
+        cout<<"*                                      1. DELHI Traffic Control Booth                                                             *"<<endl;
+        cout<<"*                                      2. JAMSHEDPUR Traffic Control Booth                                                              *"<<endl;
+        cout<<"*                                      3. HYDERABAD Traffic Control Booth                                                            *"<<endl;
         cout<<"*                                                                                                                                     *"<<endl;
         cout<<"*                     Enter 0 For Home                                                                                                *"<<endl;
         cout<<"*                     Enter your choice __                                                                                            *"<<endl;
@@ -671,7 +671,7 @@ system("clear");
          int k;
         for (int i = 0; i < 100; ++i) {
 
-            cout<<"                     Jalandhar City Traffic Control Booth                 "<<endl;
+            cout<<"                     DELHI City Traffic Control Booth                 "<<endl;
             cout<<"Vehicles Going out of the City                   Vehicles coming into the City"<<endl;
             cout<<endl<<"      "<<i+1<<"                                             "<<i+5<<endl;
             if(i>50)
@@ -695,7 +695,7 @@ system("clear");
         int k;
         for (int i = 0; i < 100; ++i) {
 
-            cout<<"                      Amritsar City Traffic Control Booth                 "<<endl;
+            cout<<"                      JAMSHEDPUR City Traffic Control Booth                 "<<endl;
             cout<<"Vehicles Going out of the City                   Vehicles coming into the City"<<endl;
             cout<<endl<<"      "<<i+5<<"                                             "<<i*7<<endl;
                 if(i>50)
@@ -721,7 +721,7 @@ system("clear");
           int k;
         for (int i = 0; i < 100; ++i) {
 
-            cout<<"                      Chandigarh City Traffic Control Booth                 "<<endl;
+            cout<<"                      HYDERABAD City Traffic Control Booth                 "<<endl;
             cout<<"Vehicles Going out of the City                   Vehicles coming into the City"<<endl;
             cout<<endl<<"      "<<i*16<<"                                             "<<i*22<<endl;
               if(i>50)
@@ -758,8 +758,8 @@ system("clear");
         cout<<"*                     Press Your Option :-                                                                                            *"<<endl;
         cout<<"*                                                                                                                                     *"<<endl;
         cout<<"*                                      1. Helpline Number                                                                             *"<<endl;
-        cout<<"*                                      2. Hospitals in Amritsar                                                                       *"<<endl;
-        cout<<"*                                      3. Hospitals in Chandigarh                                                                     *"<<endl;
+        cout<<"*                                      2. Hospitals in DELHI                                                                          *"<<endl;
+        cout<<"*                                      3. Hospitals in HYDERABAD                                                                      *"<<endl;
         cout<<"*                                                                                                                                     *"<<endl;
         cout<<"*                     Enter 0 For Home                                                                                                *"<<endl;
         cout<<"*                     Enter your choice __                                                                                            *"<<endl;
@@ -810,7 +810,7 @@ system("clear");
 
                 system("clear");
                 string line;
-                ifstream myfile("HAmritsar.txt");
+                ifstream myfile("HDELHI.txt");
                 if (myfile.is_open()) {
                     while (getline(myfile, line)) {
                         cout << line << '\n';
@@ -853,7 +853,7 @@ system("clear");
 
                 system("clear");
                 string line;
-                ifstream myfile("HChandigarh.txt");
+                ifstream myfile("HHYDERABAD.txt");
                 if (myfile.is_open()) {
                     while (getline(myfile, line)) {
                         cout << line << '\n';
