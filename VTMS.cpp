@@ -822,13 +822,13 @@ system("clear");
             cout<<"lincon   "<<"\t"<<"9638524170"<<"\n";
             cout<<"fortis   "<<"\t"<<"9638556170"<<"\n";
             cout<<"linn     "<<"\t"<<"8838524170"<<"\n";
-            cout<<"DR.RANJAN"<<"\t"<<"9638524170"<<"\n";
-            cout<<"DR.ACSRAO"<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.RITWIK MONDAL"<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.PRASHANT SHARMA "<<"\t"<<"9638524170"<<"\n";
             cout<<"lincon   "<<"\t"<<"9638524170"<<"\n";
             cout<<"fortis   "<<"\t"<<"9638556170"<<"\n";
             cout<<"DR+      "<<"\t"<<"8838524170"<<"\n";
-            cout<<"DR.RUII  "<<"\t"<<"9638524170"<<"\n";
-            cout<<"DR.RAO   "<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.KUNDU "<<"\t"<<"9638524170"<<"\n";
+            cout<<"DR.NK SINGH "<<"\t"<<"9638524170"<<"\n";
                 }
 
                 int choice;
